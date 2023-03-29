@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export type Coordinates = {
+type Coordinates = {
   latitude: number;
   longitude: number;
   temperature?: number;
